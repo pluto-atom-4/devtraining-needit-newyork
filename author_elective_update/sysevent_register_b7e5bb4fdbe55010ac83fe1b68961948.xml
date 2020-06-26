@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>This event is  fired for each over due NeedIt Task record</description>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <fired_by>Scheduled Script Execution - Find Overdue NeedIt Task</fired_by>
+        <queue/>
+        <suffix>overdueNeedItTask</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 22:21:15</sys_created_on>
+        <sys_id>b7e5bb4fdbe55010ac83fe1b68961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_b7e5bb4fdbe55010ac83fe1b68961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 22:21:15</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a65b7e94dbfa1780536ad5b0cf961926</instance_id>
+        <instance_name>dev61546</instance_name>
+        <name>sysevent_register_b7e5bb4fdbe55010ac83fe1b68961948</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>This event is  fired for each over due NeedIt Task record</description><event_name>x_58872_needit.overdueNeedItTask</event_name><fired_by>Scheduled Script Execution - Find Overdue NeedIt Task</fired_by><queue/><suffix>overdueNeedItTask</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-26 22:21:15</sys_created_on><sys_id>b7e5bb4fdbe55010ac83fe1b68961948</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.overdueNeedItTask</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysevent_register_b7e5bb4fdbe55010ac83fe1b68961948</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-26 22:21:15</sys_updated_on><table>x_58872_needit_needit_task</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-619629683</payload_hash>
+        <record_name>x_58872_needit.overdueNeedItTask</record_name>
+        <reverted_from/>
+        <source>821b3eb7dbd10010ac83fe1b68961915</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 22:21:15</sys_created_on>
+        <sys_id>8d367f4fdbe55010ac83fe1b6896195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172f2b8780c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 22:21:15</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>c5367f4f27e550107fcf901a1447ee5b</update_guid>
+        <update_guid_history>c5367f4f27e550107fcf901a1447ee5b:-619629683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 22:47:22</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>065278e67e1f4b30806fb1771646b900</sys_id>
+        <sys_metadata>b7e5bb4fdbe55010ac83fe1b68961948</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt Task">9eb0384c0f0232000d030dbce1050e53</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_register_b7e5bb4fdbe55010ac83fe1b68961948</sys_update_name>
+        <sys_update_version display_value="sysevent_register_b7e5bb4fdbe55010ac83fe1b68961948">8d367f4fdbe55010ac83fe1b6896195b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 22:47:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
